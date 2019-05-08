@@ -1,0 +1,43 @@
+/*
+* Chloe Sylvester
+* 8 May 2019
+* Girls Develop It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: #FEE4E2; 
+} /* gives a background color around the whole entire body section */
+
+header {
+    background-color: #F37371; 
+    text-align: center;
+} /* allows me to have a different background color than the body and allows the logo to be centered */
+
+#photo1 {
+    float: right;
+} /* moves the photo over to the right */
+
+#photo2 {
+    float: right; 
+} /* moves the photo over to the right and is next to the first image */
+
+h2, h3 {
+    font-family: cursive; 
+    text-decoration: underline; 
+} /* provides a different font style to only these two headings and underlines them */
+
+a:hover, a:focus {
+    font-size: 30px;
+} /* when you move over the links it gives them a different size than the other ones */
+
+a:visited {
+    color: rgb(255,113,218)
+} /* changes the colors of the links that you visited so its easier to see which websites you have been to */
